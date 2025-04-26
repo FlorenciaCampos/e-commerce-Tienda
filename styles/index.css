@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    position: relative;
+    flex-wrap: wrap;
+    height: 50px;
+    margin-top: -10px;
+}
+
+.logo-central {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    flex-grow: 1;
+    position: relative;
+    z-index: 1;
+    margin-top: -10px;
+}
+
+.logo-img {
+    width: 60px;
+    height: auto;
+}
+
+.logo-central h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.logo-central p {
+    font-size: 0.8rem;
+    color: #de0e0e;
+    margin: 0;
+}
+
+
+.menu-hamburguesa {
+    position: relative;
+    z-index: 2;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #333;
+    z-index: 2;
+}
+
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #eee;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 150px;
+    z-index: 1;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+#menu-toggle:checked + .menu-icon + .menu {
+    display: block;
+}
+
+
+
+.carrito {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    padding: 10px;
+}
+
+main {
+    margin-top: 2%;  /* Ajusta este valor según el espacio que desees */
+    
+}
+
