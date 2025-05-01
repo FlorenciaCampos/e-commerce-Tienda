@@ -107,4 +107,76 @@ main {
 }
 
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    background-color: #fff; /* o el color que estés usando */
+    margin-top: 40px;
+   
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+footer > div {
+    flex: 1;
+    padding: 10px 20px;
+}
+
+footer p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.categoria {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ccc;
+    padding-right: 40px;
+    flex: 1;
+    
+}
+
+.categoria a {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 1.8; 
+}
+
+.redes {
+    text-align: center;
+    border-right: 1px solid #ccc;
+    padding-right: 40px;
+    flex: 1;
+}
+
+.redes a {
+    display: block;
+    margin-bottom: 5px; /* opcional, para separar */
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.contacto {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
 
