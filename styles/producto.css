@@ -10,20 +10,26 @@
   flex-wrap: wrap;
   gap: 16px; /* espacio entre cards */
   justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
 
 .contenedor-card .producto a {
   text-decoration: none;
   color: rgb(66, 64, 64);
+  flex: 1 1 0;
+  max-width: 33.33%;
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  
 }
 
 .producto {
   width: 300px;
   padding: 16px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
   text-align: center;
-  background-color: rgb(242, 239, 234);
+  
 }
 
 .producto img {
@@ -31,4 +37,9 @@
   height: 200px; /* fija altura si querés que todas queden iguales */
   object-fit: cover; /* para que no se deformen */
   border-radius: 8px;
+  
+}
+
+.producto:hover img{
+  transform: scale(1.1);
 }
