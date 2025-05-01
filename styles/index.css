@@ -5,7 +5,6 @@
 }
 
 .header {
-   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,21 +27,27 @@
     margin-top: -10px;
 }
 
+.logo-central h1{
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.logo-central p {
+    font-size: 1rem;
+    color: #de0e0e;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
 .logo-img {
     width: 60px;
     height: auto;
 }
 
-.logo-central h1 {
-    font-size: 1.5rem;
-    margin: 0;
-}
 
-.logo-central p {
-    font-size: 0.8rem;
-    color: #de0e0e;
-    margin: 0;
-}
 
 
 .menu-hamburguesa {
@@ -166,6 +171,7 @@ main {
   }
 .info h3 {
     font-size: 1.2rem;
+    font-family:'Times New Roman', Times, serif;
     margin-bottom: 0.5rem;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -175,7 +181,9 @@ main {
     text-decoration: underline;
     font-weight: bold;
     text-decoration: none;
-  }
+    font-family:'Times New Roman', Times, serif;
+}
+  
 
 
 
@@ -204,14 +212,14 @@ footer > div {
 footer p {
     font-weight: bold;
     margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .categoria {
     text-align: left;
     display: flex;
     flex-direction: column;
-    border-right: 1px solid #ccc;
-    padding-right: 40px;
+    padding-right: 10px;
     flex: 1;
     
 }
@@ -220,22 +228,26 @@ footer p {
     display: block;
     margin-bottom: 5px;
     font-size: 14px;
-    line-height: 1.8; 
+    line-height: 1.8;
+    color: #535252; 
+    font-family:'Times New Roman', Times, serif;
 }
 
 .redes {
     text-align: center;
-    border-right: 1px solid #ccc;
     padding-right: 40px;
     flex: 1;
 }
 
 .redes a {
-    display: block;
+    display:flexbox;
     margin-bottom: 5px; /* opcional, para separar */
     font-size: 20px;
     margin: 0 10px;
+    color: #535252;
+  
 }
+
 
 .contacto {
     text-align: right;
@@ -249,6 +261,13 @@ footer p {
     margin: 0;
     font-size: 14px;
     line-height: 1.8;
+    color: #535252;
+}
+
+.contacto a{
+    color: #535252;
+    font-family:'Times New Roman', Times, serif;
+   
 }
 
 

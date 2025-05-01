@@ -22,15 +22,18 @@
   position: relative;
   overflow: hidden;
   height: 400px;
-  
+  font-family:'Times New Roman', Times, serif;
 }
+  
 
 .producto {
   width: 300px;
   padding: 16px;
   text-align: center;
-  
+  font-family:'Times New Roman', Times, serif;
 }
+  
+
 
 .producto img {
   width: 100%;
