@@ -8,7 +8,7 @@
 .contenedor-card {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px; /* espacio entre cards */
+  gap: 16px; 
   justify-content: center;
   align-items: center;
   width: 100vw;
@@ -37,12 +37,48 @@
 
 .producto img {
   width: 100%;
-  height: 200px; /* fija altura si querés que todas queden iguales */
-  object-fit: cover; /* para que no se deformen */
+  height: 200px; 
+  object-fit: cover; 
   border-radius: 5px;
   
 }
 
 .producto:hover img{
   transform: scale(1.1);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+  .producto {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .producto {
+    width: 100%;
+  }
+
+  .contenedor-card {
+    padding: 0 10px;
+  }
+
+  .producto img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .producto img {
+    height: 150px;
+  }
+
+  .producto a {
+    font-size: 1rem;
+  }
+
+  .producto p {
+    font-size: 0.9rem;
+  }
 }
