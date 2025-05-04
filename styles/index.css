@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*Header*/
 .header {
     display: flex;
     align-items: center;
@@ -107,6 +108,7 @@
     padding: 10px;
   }
 
+/*main*/  
 main {
     margin-top: 1%;  
     
@@ -186,7 +188,7 @@ main {
   
 
 
-
+/*Footer*/
 
 footer {
     display: flex;
